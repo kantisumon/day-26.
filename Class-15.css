@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*      header section     */
+
+
+
+
+.header{
+    background-color: rgb(116, 189, 8);     
+   
+}
+.header-logo{
+    text-align: center;
+}
+
+/*    menu section   */
+
+
+
+.primary-menu ul{
+    text-align: center;
+    margin-bottom: 0;
+}
+.primary-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.primary-menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    padding: 0px 20px;
+    line-height: 63px;
+    border-right: 1px solid #ddd;
+}
+.primary-menu ul li a:hover{
+    background-color: rgb(70, 109, 11);
+}
+
+
+/*    banner  section   */
+
+
+.banner{
+    background-image: url(https://i.ibb.co/GcHbvnN/banner-cc-1030x515.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*   About  section */
+
+
+.about{
+    background-color: rgb(238, 246, 247);
+}
+
+
+/*   service  section   */
+
+
+.service {
+    background-color: rgb(211, 244, 247);
+    
+}
+span i{
+    padding: 0 -2px;
+    color: #ddd;
+}
+span{
+
+    background-color: rgb(59, 95, 194);
+    width: 30px;
+    padding: 10px 30px;
+    padding-left: 18px;
+    
+    border-radius: 15px 0 15px 0;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom:30px ;
+}
+
+/*    product section   */
+
+
+img{
+    max-width: 100%;
+}
+.product-item p{
+    font-size: 50px;
+}
+
+/*    notice section   */
+
+.product-right ul{
+    list-style: none;
+    padding-left: 0;
+}
+.product-right ul li {
+    background-color: #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+
+/*      footer  section    */
+
+
+
+.footer{
+    background-color: black;
+    padding-top: 10px;
+}
+.footer p{
+    margin-bottom: 0;
+}
+.footer a{
+    color: #fff;
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+}
